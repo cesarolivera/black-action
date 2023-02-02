@@ -11,7 +11,7 @@ workflow "Example Workflow" {
 }
 
 action "Lint" {
-  uses = "lgeiger/black-action@master"
+  uses = "cesarolivera/black-action@master"
   args = ". --check"
 }
 ```
